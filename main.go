@@ -9,6 +9,6 @@ import (
 
 func main() {
 	app.Run("Markdown", func(w *unison.Window) {
-		Markdown.New().Layout(w.Content())
+		markdown.New().Layout(w.Content())
 	})
 }
